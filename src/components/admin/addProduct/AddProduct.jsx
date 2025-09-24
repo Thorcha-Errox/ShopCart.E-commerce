@@ -254,17 +254,6 @@ const AddProduct = () => {
                   onChange={(e) => handleImageChange(e)}
                   required
                 />
-
-                {product.imageURL === "" ? null : (
-                  <input
-                    type="text"
-                    required
-                    placeholder="Image URL"
-                    name="imageURL"
-                    value={product.imageURL}
-                    disabled
-                  />
-                )}
               </Card>
             </div>
             <div className="--form-control">
